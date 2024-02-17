@@ -1,0 +1,174 @@
+<?php
+include('header.php');
+//Start session
+session_start();
+//Unset the variables stored in session
+unset($_SESSION['id']);
+?>
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="css/dropdown/themes/adobe.com/images/sda2.png" /><!--HOW TO PUT ICON FOR THE WEBSITE PAGE UP WHERE THERES HEADING-->
+</head>
+<body>
+
+    <?php include('main_menu/navhead_4.php'); ?>
+
+    <?php include('social.php'); ?> 
+    
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span3">
+
+                <div class="hero-unit-3">
+                    <div class="alert-index alert-success">
+                       <!-- <i class="icon-calendar icon-large"></i>-->
+                        <!---<>Herald Publishing House<>--->
+                         <div class="brand">
+                            <a  href="shop.php"><img src="images_2/templatemo_logo.png" width="195" height="95" /> <span class="hidden-sm hidden-sx"><!-- Book Shopping SLOGAN GOES HERE--></span></a>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="hero-unit-1">
+                    <ul class="nav  nav-pills nav-stacked">
+
+
+                       <!---<li class="nav-header">Menu Category</li><p>---><p></p>
+                        <li><a href="index.php"><i class="icon-home icon-large"></i>&nbsp;Home
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li><p>
+
+                        <li><a href="sitemap.php"><i class="icon-sitemap icon-large"></i>&nbsp;Site Map
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li><p>
+							
+							<li  class="active"><a  href="about.php"><i class="icon-book icon-large"></i>&nbsp;About Us
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li><p>
+							
+							 <li><a href="contact.php"><i class="icon-envelope-alt icon-large"></i>&nbsp;Contact Us
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a>                
+                        </li><p>
+						
+						<!--<li><a  href="admin/index.php"><i class="icon-book icon-large"></i>&nbsp;Admin Portal
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li><p>
+							
+							
+							<!--<li><a  href="services.php"><i class="icon-book icon-large"></i>&nbsp;Our Services
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li><p>-->
+							
+								<li><a  href="shop.php"><i class="icon-book icon-large"></i>&nbsp;Bookstore Shop
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li><p>
+							
+							<li><a  href="evaluation.php"><i class="icon-book icon-large"></i>&nbsp;Sales Evaluation
+                                <div class="pull-right">
+                                    <i class="icon-double-angle-right icon-large"></i>
+                                </div> 
+                            </a></li>
+							
+					</div>
+                <br>
+            </div>
+            <div class="span9">
+
+                <?php /*?> <div class="alert alert-info">
+                    
+					<marquee>
+<b style="color:#003333; scrollamount:40000"> Africa Herald Publishing House Online Shopping Bookstore..... TEL :+254(0) 728 701 598 Email: aburanick@hotmail.com </br> </b> 
+</marquee>
+                </div><?php */?>
+                <div class="hero-unit-3">
+
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="alert alert-success"> 
+				<!--			<marquee>
+<b style="color:#006600; scrollamount:40000"> Africa Herald Publishing House Online Shopping Bookstore..... TEL :+254(0) 728 701 598 Email: aburanick@hotmail.com </br> </b> 
+							</marquee>-->
+							<h3><b>About Us</b></h3>
+							</div>
+
+                            <div class="row-fluid">
+                             <!--  <div class="span6">-->
+							<i>At Africa Herald Publishing House we operate under the following Vision and Mission Statement.
+							 Join us in spreading the gospel through publication and ordering of the articles for the good news.
+							 Below also includes the services we offer at Africa Herald Publishing House in summary. Feel free to visit 
+							 Our Online Shopping Page to see our products. You can also contact us for any queries in our Contact Page or 
+							 Call us in the telephone number given. </i><br> <br>
+                                    <p><b><i class="icon-circle"></i>&nbsp;Our Vision</b></p>
+                                   <p>
+								   Africa Herald Publishing House fully participates in the worldwide evangelism through the saturation of the region with quality printed materials.</br>   </br>                       <!--  <p><i class="icon-circle"></i>&nbsp;President's Office - 495-4064(telefax)</p>
+                                    <p><i class="icon-circle"></i>&nbsp;  VPA/PME - 495-1635</p>
+                                    <p><i class="icon-circle"></i>&nbsp;  Registrar Office - 495-4657(telefax)</p>
+                                    <p><i class="icon-circle"></i>&nbsp;  BAC - 712-8404(telefax)</p>
+                                    <p><i class="icon-circle"></i>&nbsp;  Records - 495-3470</p>-->
+
+                                <!--</div>
+                                <div class="span6">-->
+
+                                   <p><b><i class="icon-circle"></i>&nbsp;Mission Statement</b></p>
+                                   Africa Herald Publishing House exists to communicate to all peoples the everlasting gospel in the
+								    context of the three angels' messages of Revelation 14:6-12, through well published and printed Spiritual, Health Principles
+									 and Family Values literature in various languages, leading many to accept Jesus as a personal Savior and
+									  Lord, and to nurture them in preparation for His soon return.</p>
+								   
+								   
+								   
+								     <p><b><i class="icon-circle"></i>&nbsp;Our Services</b></p>
+                                   <p>
+								   <i>Sabbath School Article Orders.</i>
+								   You can shop for your Sabbath School Lesson every quarter and receive your order wherever you are.
+								    Africa Herald Publishing House gives you chance to shop and order your Study Guide and other Sabbath School Program articles when they are out. <br> <br>
+									
+									 <i>Article Publication Orders.</i>
+								   At Africa Herald Publishing House we Publish Various books and articles.
+								    You can contact us for any publication or order for publication and we will get back to you.
+									 Our Publication includes the following and many more you may need.<br> <br>
+									 
+									 
+									 <i>Online Sales Order and Delivery.</i>
+								We wellcome you all to order any spiritual books and submit the order for the delivery of your copy.
+								 The order can be done at any time not only at the beginning of the quarter. Some sales payments terms are listed below.
+                                      <!--<p><i class="icon-circle"></i>&nbsp;COA - 495-5748</p>
+                                    <p><i class="icon-circle"></i>&nbsp; Guard House - 476-1600</p>
+                                    <p><i class="icon-circle"></i> &nbsp;  Research - 712-8464</p>
+                                    <p><i class="icon-circle"></i>  &nbsp; Library - 495-5143</p>
+                                    <p><i class="icon-circle"></i>  &nbsp; Contact II</p>-->							
+                                <!--</div>-->
+							</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- end slider -->
+            </div>
+
+        </div>
+        <?php include('footer.php'); ?>
+    </div>
+
+
+</div>
+</div>
+
+</body>
+</html>

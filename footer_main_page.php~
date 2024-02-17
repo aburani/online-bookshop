@@ -1,0 +1,66 @@
+<!-----MOVE TOP PAGE CODES
+<?php include('move top_page_home.php'); ?>	
+<!-----------END MOVE TOP PAGE UP------>
+
+<br>
+<div class="navbar  navbar-inverse">
+    <div class="navbar-inner">
+        <div class="footerindex">
+            <img width="55" height="55" src="images/aa.png">&nbsp;Copyright &copy; 2016 Africa Herald Publishing House | Created by <a href="https://www.facebook.com/jakendu.jnr" target="_blank"> <b> nicosoft Developers </b></a>
+            
+            <div class="pull-right">
+                <a href="https://www.facebook.com/jakendu.jnr" target="_blank"><i class="icon-facebook-sign icon-large" id="color_white"></i></a>
+                <a href="https://twitter.com/AburaNick" target="_blank"> <i class="icon-twitter icon-large" id="color_white"></i></a>
+                <a href="https://plus.google.com/u/1/111908786840392957601/posts/p/pub" target="_blank"> <i class="icon-google-plus icon-large" id="color_white"></i></a>
+                      <!--  <i class="icon-github-alt icon-large" id="color_white"></i>-->
+                <a href="https://www.linkedin.com/in/nick-abura-ba9762b2?trk=nav_responsive_tab_profile" target="_blank"><i class="icon-linkedin-sign icon-large" id="color_white"></i></a>
+            
+          </div>
+        </div>
+        <!-- modal -->
+        <!-- mission -->
+        <div id="mission" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-info"><strong>Chmsc Mission</strong></div>
+                <p>
+                    A leading institution in higher and continuing education commited to engage in quality instruction, development-oriented research sustinable lucrative economic enterprise, and responsive extension and training services through relevant academic programs to empower a human resource that responds effectively to challenges in life and acts as catalyst in the holistoic development of a humane society. 
+                </p>
+
+                <div class="alert alert-info"><strong>E-Learning Mission</strong></div>
+                <p>
+                    To provide a highly developed form of teaching through maximizing the use of technology which will somehow give an easier and efficient way of learning that will make them to be competitive and productive citizens of the society.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign icon-large"></i>&nbsp;Close</button>
+            </div>
+        </div>
+        <!-- end mission -->
+        <!-- vision -->
+        <div id="vision" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-info"><strong>Chmsc Vision</strong></div>
+
+                <p>CHMSC ExCELS: Excellence, Competence, and Educational Leaderhip in Science and Technology.</p>
+                <p>Driven by its passion for continous improvement, the State College has to vigorously pursue distinction and proficieny in delivering its statutory functions to the Filipino people in the fields of education, business, agro-fishery, industrial, science and technology, through committed and competent human resource, guided by the beacon of innovation and productivity towards the heights of elevated status. </p>
+
+                <div class="alert alert-info"><strong>E-Learning Vision</strong></div>
+               
+                To be able to prove to people that Filipinos also know how to cope up with the development in technology this will provide an easier way of teaching and a better form of learning.
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign icon-large"></i>&nbsp;Close</button>
+            </div>
+        </div>
+        <!-- end vision -->
+        <!--end modal -->
+
+    </div>
+</div>
+</div>
+
